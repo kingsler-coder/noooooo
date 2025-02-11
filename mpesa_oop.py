@@ -25,7 +25,7 @@ class Customer(Account):
         super() .__init__(account_id,holder_name,balance)
         self.phone_number =phone_number
 # polymorphism
-class Transaction():
+class Transaction:
     def __init__(self,amount):
         self.amount = amount
     def execute(self,account):
